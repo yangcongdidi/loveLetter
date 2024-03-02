@@ -11,7 +11,7 @@
         只需10元钱，帮你搞掂一切，就是这么简单任性！
       </van-collapse-item>
       <van-collapse-item title="联系我" name="3">
-        我的邮箱:qq616605040@163.com
+        546465465456
         有什么问题请发邮件到这里咨询
       </van-collapse-item>
     </van-collapse>
