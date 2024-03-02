@@ -2,6 +2,7 @@
     <div class="page">
         <HelloWorld ></HelloWorld>
         <bottom-bar></bottom-bar>
+        11222222333
     </div>
 </template>
 
