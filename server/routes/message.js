@@ -9,6 +9,7 @@ router.get('/', function (ctx, next) {
 })
 
 router.get('/getPublicNoitce', async function (ctx, next) {
+    console.log(111111111111111);
     let   num = parseInt(ctx.query.num)
     const res = await messageModel.find({})
         .sort({updateTime:-1})

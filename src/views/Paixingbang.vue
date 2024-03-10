@@ -19,7 +19,7 @@
                     <img class="img-response" src="../assets/images/panda.png"/>
                 </div>
                 <div class="content">
-                    <div class="name">黑骑一户</div>
+                    <div class="name">一户</div>
                     <div class="dianzanshu"><span class="num">15636</span><span>&nbsp;&nbsp;|&nbsp;      点赞数</span></div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     <img class="img-response" src="../assets/images/panda.png"/>
                 </div>
                 <div class="content">
-                    <div class="name">陈奕迅</div>
+                    <div class="name">陈迅</div>
                     <div class="dianzanshu"><span class="num">15636</span><span>&nbsp;&nbsp;|&nbsp;      点赞数</span></div>
                 </div>
             </div>

@@ -7,12 +7,8 @@
         就会有专人帮你代写，寄送到你喜欢的人手上。要是你不愿意透露自己的名字，
         帮你匿名表白。
       </van-collapse-item>
-      <van-collapse-item title="价格" name="2">
-        只需10元钱，帮你搞掂一切，就是这么简单任性！
-      </van-collapse-item>
       <van-collapse-item title="联系我" name="3">
         我的邮箱:qq616605040@163.com
-        有什么问题请发邮件到这里咨询
       </van-collapse-item>
     </van-collapse>
     <bottom-bar></bottom-bar>

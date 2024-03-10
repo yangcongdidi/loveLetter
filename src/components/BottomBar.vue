@@ -19,7 +19,6 @@
     .bottom
         position fixed
         bottom 0
-        left 0
         width 100%
         font-size 0.4rem
         height  1rem

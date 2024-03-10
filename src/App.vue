@@ -1,8 +1,10 @@
 <template>
   <div id="#app">
-    <transition :name="slideDirection">
-      <router-view class="router-view"/>
+    <transition name="slide-left">
+        <router-view class="router-view"></router-view>
     </transition>
+      <BottomBar></BottomBar>
+
   </div>
 </template>
 <style lang="stylus">
@@ -75,20 +77,30 @@ a
   transition: all .6s cubic-bezier(.55,0,.1,1);
   overflow hidden
 }
-.slide-left-enter, .slide-right-leave-active {
-  opacity: 0;
-  -webkit-transform: translate(-80px, 0);
-  transform: translate(-80px, 0);
+.slide-left-enter {
+  opacity: 0.01;
+  transform: translate(-1rem, 0);
 }
-.slide-left-leave-active, .slide-right-enter {
+.slide-left-leave-active{
   opacity: 0;
-  -webkit-transform: translate(100%, 0);
-  transform: translate(100%, 0);
 }
+
+
+
+
+
+.zxeditor-container .zxeditor-toolbar-wrapper{
+  background-color:transparent !important;
+} 
+
+
+
+
 
 </style>
 
 <script>
+import BottomBar from '@/components/BottomBar.vue'
     export default {
         name: 'App',
         data() {
@@ -96,9 +108,13 @@ a
                 slideDirection: 'slide-right', // 默认动态路由变化为slide-right
             }
         },
+        components:{
+          BottomBar
+        },
         watch: {
             /* eslint-disable */
             '$route'(to, from) {
+                console.log(to.path);
                 const toDepth = to.path.split('/').length
                 const fromDepth = from.path.split('/').length
                 this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
