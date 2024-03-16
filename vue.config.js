@@ -1,6 +1,6 @@
 module.exports = {
     //...
-    baseUrl: './',
+    publicPath: './dist',
     devServer:{
         proxy: {
             '/api': {
