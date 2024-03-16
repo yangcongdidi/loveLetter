@@ -1,6 +1,5 @@
 module.exports = {
     //...
-    publicPath: './dist',
     devServer:{
         proxy: {
             '/api': {
